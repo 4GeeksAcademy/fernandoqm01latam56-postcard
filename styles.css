@@ -1,0 +1,62 @@
+
+.container {
+
+    width: 500px;
+    height: 360px;
+    border: solid 5px black;
+    margin: auto;
+
+
+}
+
+.primero {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 0;
+    height: 80px;
+
+}
+
+.segundo {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20px;
+
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafos {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    font-family:cursive, Geneva, Tahoma, sans-serif
+
+}
+
+.tercero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    border: none;
+    border-bottom: solid gray;
+}
+
+img {
+    width: 15%;
+}
+h1 {
+    font-family: cursive;
+}
